@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F0ECE3;
+  --foreground: #302E28;
+  --shadow: #8D8A83;
+  --paragraph: #8D8A83; /* intentionally same color as --shadow */
+  --accent: #E5C57F;
+}
+
+@layer base {
+  * {
+    border-color: var(--shadow);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: "Miriam Libre";
+  }
+
+  nav a {
+    color: var(--background);
+  }
+
+  nav a:hover{
+    text-decoration: underline;
+  }
+}
