@@ -26,4 +26,17 @@
   nav a:hover{
     text-decoration: underline;
   }
+
+  .antic {
+    font-family: 'Antic Didone';
+  }
+
+  #landing-links a {
+    color: #9A968D;
+    width: fit-content;
+  }
+  
+  #landing-links a:hover {
+    color: var(--foreground);
+  }
 }

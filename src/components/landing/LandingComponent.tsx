@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { usePortfolioData } from '@/hooks/usePortfolioData';
+import Bio from './Bio';
 
 export const LandingComponent = () => {
     const data = usePortfolioData();
@@ -13,7 +14,7 @@ export const LandingComponent = () => {
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src="/ppixel.png" alt='Parthiv Menon' width={400} />
                 </div>
-                <div className='col-span-4 border rounded-md'>t</div>
+                <div className='col-span-4 border rounded-md'><Bio /></div>
             </div>
             <div className='h-6/11 border rounded-md mt-2'></div>
         </div>
