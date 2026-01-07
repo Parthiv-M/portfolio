@@ -1,6 +1,7 @@
 import ContentWrapper from '@/components/ContentWrapper';
 import { LandingComponent } from '@/components/landing/LandingComponent';
 import Navbar from '@/components/Navbar';
+import ProjectSection from '@/components/projects/Section';
 import WorkSection from '@/components/work/Section';
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         <Navbar />
         <LandingComponent />
         <WorkSection />
+        <ProjectSection />
       </ContentWrapper>
     </main>
   );
