@@ -1,3 +1,5 @@
+import { Maximize2 } from "@deemlol/next-icons";
+
 export default function ProjectCard({
     colSpan,
     classes = ""
@@ -21,7 +23,7 @@ export default function ProjectCard({
                     {/* put tech stack icons here, visible on hover? */}
                 </div>
                 <div>
-                    {/* put expand icon here */}
+                    <Maximize2 size={24} />
                 </div>
             </div>
         </div>

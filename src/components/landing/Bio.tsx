@@ -1,3 +1,4 @@
+import { ArrowLeft } from "@deemlol/next-icons";
 import { usePortfolioData } from "@/hooks/usePortfolioData";
 
 export default function Bio() {
@@ -20,12 +21,18 @@ export default function Bio() {
                 </div>
             </div>
             <div id="landing-links" className="flex flex-col gap-5 text-xl">
-                <a href="#">
-                    Experience
+                <a href="#" className="group flex gap-2 items-center">
+                    <span>Experience</span><span className="hidden group-hover:block"><ArrowLeft size={24} /></span>
                 </a>
-                <a href="#">Projects</a>
-                <a href="#">Hackathons</a>
-                <a href="#">Other stuff</a>
+                <a href="#" className="group flex gap-2 items-center">
+                    <span>Projects</span><span className="hidden group-hover:block"><ArrowLeft size={24} /></span>
+                </a>
+                <a href="#" className="group flex gap-2 items-center">
+                    <span>Hackathons</span><span className="hidden group-hover:block"><ArrowLeft size={24} /></span>
+                </a>
+                <a href="#" className="group flex gap-2 items-center">
+                    <span>Other stuff</span><span className="hidden group-hover:block"><ArrowLeft size={24} /></span>
+                </a>
             </div>
         </div>
     )
