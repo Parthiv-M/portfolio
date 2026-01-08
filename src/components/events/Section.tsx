@@ -3,7 +3,7 @@ import EventCard from "./EventCard";
 
 export default function EventsSection() {
     return (
-        <div>
+        <div className="mt-4">
             <SectionHeaderText text="Hackathons and conferences" />
             <div className="w-full overflow-x-auto">
                 <div className="pr-4 flex gap-2 min-w-max py-4 pl-2/3">
