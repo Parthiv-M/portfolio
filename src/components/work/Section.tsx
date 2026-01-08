@@ -11,29 +11,25 @@ export default function WorkSection() {
                         <div>
                             <SectionHeaderText text="All about work" />
                             <div className="mt-4 grid grid-cols-2 gap-6">
-                                <WorkTile />
-                                <WorkTile />
-                                <WorkTile />
-                                <WorkTile />
+                                <WorkTile logo="/institutions/neu.png" />
+                                <WorkTile logo="/institutions/wmf.png" />
+                                <WorkTile logo="/institutions/iisc.png" />
+                                <WorkTile logo="/institutions/lakehead.png" />
                             </div>
                         </div>
                         <div className="mt-12">
                             <SectionHeaderText text="Clubs and orgs" />
                             <div className="mt-4 grid grid-cols-2 gap-6">
-                                <WorkTile />
-                                <WorkTile />
-                                <WorkTile />
-                                <WorkTile />
-                                <WorkTile />
-                                <WorkTile />
+                                <WorkTile logo="/institutions/mist.png" />
+                                <WorkTile logo="/institutions/post.png" />
                             </div>
                         </div>
                         <div className="mt-12">
                             <SectionHeaderText text="Volunteering" />
                             <div className="mt-4 grid grid-cols-2 gap-6">
+                                {/* <WorkTile />
                                 <WorkTile />
-                                <WorkTile />
-                                <WorkTile />
+                                <WorkTile /> */}
                             </div>
                         </div>
                     </div>
