@@ -1,5 +1,49 @@
 {
   "portfolio": {
-    "name": "Parthiv Menon"
+    "name": "Parthiv Menon",
+    "projects": [
+      {
+        "name": "Project Name",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex.",
+        "techStack": [
+          "React",
+          "Next.js",
+          "TypeScript"
+        ],
+        "link": "#",
+        "colSpan": 4
+      }
+    ],
+    "events": [
+      {
+        "name": "Event Name",
+        "role": "Position / Other things",
+        "description": [
+          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
+          "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
+        ],
+        "isAward": true,
+        "image": "/ppixel.png"
+      }
+    ],
+    "work": [
+      {
+        "logo": "/institutions/neu.png",
+        "position": "Software Engineer",
+        "organization": "Northeastern University",
+        "startDate": "Jan 2024",
+        "endDate": "Present"
+      }
+    ],
+    "clubs": [
+      {
+        "logo": "/institutions/mist.png",
+        "position": "Member",
+        "organization": "MIST",
+        "startDate": "Sep 2023",
+        "endDate": "Dec 2023"
+      }
+    ],
+    "volunteering": []
   }
 }
