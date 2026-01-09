@@ -3,45 +3,166 @@
     "name": "Parthiv Menon",
     "projects": [
       {
-        "name": "Project Name",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex.",
-        "techStack": [
-          "React",
-          "Next.js",
-          "TypeScript"
-        ],
-        "link": "#",
+        "name": "katalog",
+        "description": "A comprehensive Goodreads data scraper and analytics dashboard that automatically tracks reading activity, provides detailed statistics, and visualizes reading habits over time.",
+        "techStack": [],
+        "link": "https://github.com/Parthiv-M/katalog/",
         "colSpan": 4
+      },
+      {
+        "name": "nuk-ai",
+        "description": "A real-time occupancy monitoring and prediction platform that leverages simulated IoT sensor data, machine learning, and conversational AI to provide intelligent insights about space availability at Snell Library, NEU, Boston.",
+        "techStack": [],
+        "link": "https://github.com/Parthiv-M/nuk-ai/",
+        "colSpan": 8
+      },
+      {
+        "name": "The Heritage Lab",
+        "description": "A digital platform unifying museum curators, curious minds, and casual readers across the world. I helped create custom themes, ACF components, and other custom HTML/CSS/JS modules to help site administrators build creative, engaging, and interactive content via their admin dashboard.",
+        "techStack": [],
+        "link": "https://theheritagelab.in",
+        "colSpan": 8
+      },
+      {
+        "name": "Digital Humanities Project",
+        "description": "A digital exhibition that explores the proliferation of racism and sexism through a study of popular visual depictions of domestic workers on trade cards and postcards. The built from scratch dashboard serves as a digital archive where anyone can browse through the collection used for this research.",
+        "techStack": [],
+        "link": "https://github.com/Digital-Postcards/empire-history-cards",
+        "colSpan": 4
+      },
+      {
+        "name": "Debrief",
+        "description": "An OpenAI powered Google Chrome extension that briefs you about your search results, right on your search results page.",
+        "techStack": [],
+        "link": "https://github.com/Parthiv-M/debrief/",
+        "colSpan": 4
+      },
+      {
+        "name": "Stock Portfolio Manager",
+        "description": "A stock portfolio manager built in Java as both a CLI and Swing UI based application. It allows users to build and manage a portfolio of stocks and integrates the AlphaVantage API to pull real stock data.",
+        "techStack": [],
+        "link": "https://github.com/Parthiv-M/portfolio-manager",
+        "colSpan": 8
       }
+
     ],
     "events": [
       {
-        "name": "Event Name",
-        "role": "Position / Other things",
+        "name": "Hack NUACM",
+        "role": "Winner / Ideathon Track",
         "description": [
           "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
           "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
         ],
         "isAward": true,
-        "image": "/ppixel.png"
+        "image": "/hacks/nuacm.png"
+      },
+      {
+        "name": "HackMIT 2025",
+        "role": "Mentor and Judge",
+        "description": [
+          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
+          "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
+        ],
+        "isAward": false,
+        "image": "/hacks/hackmit25.png"
+      },
+      {
+        "name": "Wikimedia Hackathons",
+        "role": "Participant / Volunteer",
+        "description": [
+          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
+          "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
+        ],
+        "isAward": false,
+        "image": "/hacks/wmhack.png"
+      },
+      {
+        "name": "Hack-a-noodle by Zomato",
+        "role": "Finalist",
+        "description": [
+          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
+          "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
+        ],
+        "isAward": false,
+        "image": "/hacks/hackanoodle.png"
+      },
+      {
+        "name": "1 Million Seconds Hackathon",
+        "role": "Top 10 Finisher",
+        "description": [
+          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
+          "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
+        ],
+        "isAward": true,
+        "image": "/hacks/onemillion.png"
       }
     ],
     "work": [
       {
         "logo": "/institutions/neu.png",
-        "position": "Software Engineer",
+        "position": "Teaching Assistant",
         "organization": "Northeastern University",
-        "startDate": "Jan 2024",
-        "endDate": "Present"
+        "startDate": "January 2025",
+        "endDate": "December 2025"
+      },
+      {
+        "logo": "/institutions/wmf.png",
+        "position": "Software Engineer (contract)",
+        "organization": "Wikimedia Foundation",
+        "startDate": "October 2022",
+        "endDate": "December 2023"
+      },
+      {
+        "logo": "/institutions/iisc.png",
+        "position": "Software Developer Intern",
+        "organization": "Indian Institute of Science",
+        "startDate": "January 2023",
+        "endDate": "July 2023"
+      },
+      {
+        "logo": "/institutions/lakehead.png",
+        "position": "MITACS Globalink Research Intern",
+        "organization": "Lakehead University",
+        "startDate": "May 2022",
+        "endDate": "July 2022"
       }
     ],
     "clubs": [
       {
+        "logo": "/institutions/null.png",
+        "position": "Technical Lead",
+        "organization": "null NEU",
+        "startDate": "March 2024",
+        "endDate": "April 2025"
+      },
+      {
         "logo": "/institutions/mist.png",
-        "position": "Member",
-        "organization": "MIST",
-        "startDate": "Sep 2023",
-        "endDate": "Dec 2023"
+        "position": "Head of Web Development",
+        "organization": "Manipal Information Security Team",
+        "startDate": "September 2021",
+        "endDate": "September 2022"
+      },
+      {
+        "logo": "/institutions/post.png",
+        "position": "Head of Writing",
+        "organization": "The MIT Post",
+        "startDate": "October 2021",
+        "endDate": "October 2022"
+      },
+      {
+        "logo": "/institutions/ecell.png",
+        "position": "Writer, Content Team",
+        "organization": "Entrepreneurship Cell, Manipal",
+        "startDate": "July 2021",
+        "endDate": "July 2022"
+      },
+      {
+        "logo": "/institutions/eboard.png",
+        "position": "Artist",
+        "organization": "The Editorial Board, Manipal",
+        "startDate": "October 2019",
+        "endDate": "June 2020"
       }
     ],
     "volunteering": []
