@@ -4,6 +4,11 @@ export interface Project {
   techStack?: string[];
   link?: string;
   colSpan: number;
+  image?: string;
+  purpose?: string;
+  technicalities?: string;
+  other?: string;
+  links?: { label: string; url: string }[];
 }
 
 export interface Event {
@@ -30,4 +35,5 @@ export interface PortfolioData {
   work: WorkExperience[];
   clubs: WorkExperience[];
   volunteering: WorkExperience[];
+  stack: string[];
 }
