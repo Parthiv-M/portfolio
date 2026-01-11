@@ -1,4 +1,5 @@
 import Bio from './Bio';
+import Stack from './Stack';
 
 export const LandingComponent = () => {
     return (
@@ -10,7 +11,9 @@ export const LandingComponent = () => {
                 </div>
                 <div className='md:col-span-4 border rounded-md'><Bio /></div>
             </div>
-            <div className='h-[50vh] md:h-screen border rounded-md mt-2'></div>
+            <div className='h-[50vh] md:h-screen border rounded-md mt-2'>
+                <Stack />
+            </div>
         </div>
     );
 };

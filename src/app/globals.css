@@ -48,3 +48,87 @@
     text-decoration: underline;
   }
 }
+
+.screen {
+  background: var(--foreground);
+  border-radius: 3% 3% 0.5% 0.5% / 5%;
+  margin: 0 auto;
+  /* for aspect ratio */
+  position: relative;
+  width: 80%;
+}
+
+.screen:before {
+  border: 2px solid #C9C5BC;
+  border-radius: 3% 3% 0.5% 0.5% / 5%;
+  box-shadow: 0 0 0 1px rgba(48, 46, 40, 0.8) inset, 0 0 1px 2px rgba(240, 236, 227, 0.3) inset;
+  content: "";
+  display: block;
+  /* for aspect ratio ~67:100 */
+  padding-top: 67%;
+}
+
+.screen:after {
+  content: "";
+  border-top: 2px solid rgba(240, 236, 227, 0.15);
+  position: absolute;
+  bottom: 0.75%;
+  left: 0.5%;
+  padding-top: 1%;
+  width: 99%;
+}
+
+.viewport {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 3.0% 2.0%;
+  background: var(--background);
+}
+
+.base {
+  /* for aspect ratio */
+  position: relative;
+  width: 100%;
+}
+
+.base:before {
+  content: "";
+  display: block;
+  /* for aspect ratio ~33:1000*/
+  padding-top: 3.3%;
+  /* stylin - warm tones */
+  background: linear-gradient(#E8E4DB, #EDEAE2 55%, #F0ECE3 55%, #A9A69D 56%, #B8B5AC 61%, #6B6961 84%, #3D3B35 89%, rgba(48, 46, 40, .01) 98%);
+  border-radius: 0 0 10% 10%/ 0 0 50% 50%;
+}
+
+.base::after {
+  background: linear-gradient(90deg, rgba(48, 46, 40, 0.5), rgba(240, 236, 227, 0.8) 0.5%, rgba(48, 46, 40, 0.4) 3.3%, transparent 15%, rgba(240, 236, 227, 0.8) 50%, transparent 85%, rgba(48, 46, 40, 0.4) 96.7%, rgba(240, 236, 227, 0.8) 99.5%, rgba(48, 46, 40, 0.5) 100%);
+  content: "";
+  height: 53%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.notch {
+  background: #D9D5CC;
+  border-radius: 0 0 7% 7% / 0 0 95% 95%;
+  box-shadow: -5px -1px 3px rgba(48, 46, 40, 0.2) inset, 5px -1px 3px rgba(48, 46, 40, 0.2) inset;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3.5%;
+  z-index: 2;
+  /* for aspect ratio */
+  position: relative;
+  width: 14%;
+}
+
+.notch:before {
+  content: "";
+  display: block;
+  /* for aspect ratio ~1:10 */
+  padding-top: 10%;
+}
