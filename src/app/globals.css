@@ -4,7 +4,8 @@
   --background: #F0ECE3;
   --foreground: #302E28;
   --shadow: #8D8A83;
-  --paragraph: #8D8A83; /* intentionally same color as --shadow */
+  --paragraph: #8D8A83;
+  /* intentionally same color as --shadow */
   --accent: #E5C57F;
 }
 
@@ -23,7 +24,7 @@
     color: var(--background);
   }
 
-  nav a:hover{
+  nav a:hover {
     text-decoration: underline;
   }
 
@@ -35,7 +36,7 @@
     color: #9A968D;
     width: fit-content;
   }
-  
+
   #landing-links a:hover {
     color: var(--foreground);
   }
@@ -47,6 +48,15 @@
   footer a:hover {
     text-decoration: underline;
   }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .screen {
