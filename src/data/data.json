@@ -137,7 +137,7 @@
           "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
         ],
         "isAward": true,
-        "image": "/hacks/nuacm.png"
+        "image": "/hacks/nuacm.jpg"
       },
       {
         "name": "HackMIT 2025",
@@ -147,7 +147,7 @@
           "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
         ],
         "isAward": false,
-        "image": "/hacks/hackmit25.png"
+        "image": "/hacks/hackmit.jpg"
       },
       {
         "name": "Wikimedia Hackathons",
@@ -157,7 +157,7 @@
           "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
         ],
         "isAward": false,
-        "image": "/hacks/wmhack.png"
+        "image": "/hacks/wmhack.jpg"
       },
       {
         "name": "Hack-a-noodle by Zomato",
@@ -167,7 +167,7 @@
           "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
         ],
         "isAward": false,
-        "image": "/hacks/hackanoodle.png"
+        "image": "/hacks/hackanoodle.jpg"
       },
       {
         "name": "1 Million Seconds Hackathon",
@@ -176,8 +176,7 @@
           "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
           "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
         ],
-        "isAward": true,
-        "image": "/hacks/onemillion.png"
+        "isAward": true
       }
     ],
     "work": [
