@@ -133,8 +133,8 @@
         "name": "Hack NUACM",
         "role": "Winner / Ideathon Track",
         "description": [
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
-          "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
+          "At a hackathon conducted by the ACM chapter of Northeastern University, Boston, my team and I emerged as winners in the Ideathon track for the most innovative idea pitched and implemented in 24 hours.",
+          "We built a real-time occupancy monitoring and prediction platform that leverages simulated IoT sensor data, machine learning, and conversational AI to provide intelligent insights about space availability at Snell Library, NEU, Boston."
         ],
         "isAward": true,
         "image": "/hacks/nuacm.jpg"
@@ -143,8 +143,8 @@
         "name": "HackMIT 2025",
         "role": "Mentor and Judge",
         "description": [
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
-          "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
+          "I was a mentor and judge at HackMIT 2025 organized by MIT and having the distinction of being the largest student run hackathon in the USA. It was a full circle moment for me as I had previously participated in this very event during my undergraduate days in 2021.",
+          "It was energizing to witness the variety, scale, and innovation of the ideas built by various teams within 24 hours on topics as vast as healthcare, education, environment, and more."
         ],
         "isAward": false,
         "image": "/hacks/hackmit.jpg"
