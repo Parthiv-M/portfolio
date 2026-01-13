@@ -14,9 +14,8 @@ export default function Bio() {
                 </div>
                 <div className="mt-6 sm:mt-8">
                     <p className="text-lg sm:text-xl">
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                        Sit amet consectetur adipiscing elit quisque faucibus ex.
-                        Adipiscing elit quisque faucibus ex sapien vitae pellentesque.
+                        Between finding the next best alliteration and fixing the syntactical
+                        nitty gritties of my latest code lies the crux of my personality.
                     </p>
                 </div>
             </div>
