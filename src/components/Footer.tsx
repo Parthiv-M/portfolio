@@ -1,6 +1,15 @@
+"use client"
+
 import { ArrowUpCircle } from "@deemlol/next-icons";
 
 export default function Footer() {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
     return (
         <footer className="h-screen bg-gradient-to-b from-transparent to-[#E8CC83] pb-10">
             <div className="h-full w-full sm:w-2/3 mx-auto px-6 sm:px-0">
@@ -19,19 +28,24 @@ export default function Footer() {
                                 <a className="text-xl" href="#">Art</a>
                             </div>
                             <div className="flex flex-col gap-4">
-                                <a className="text-xl" href="#">Email</a>
-                                <a className="text-xl" href="#">Instagram</a>
-                                <a className="text-xl" href="#">LinkedIn</a>
+                                <a className="text-xl" href="mailto:parthivmenon.dev@gmail.com" target="_blank">Email</a>
+                                <a className="text-xl" href="https://instagram.com/_.parthiv_" target="_blank">Instagram</a>
+                                <a className="text-xl" href="https://linkedin.com/in/parthivmenon" target="_blank">LinkedIn</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="md:h-1/7 border-t pt-8 flex justify-between items-center gap-4">
+                <div className="md:h-1/7 border-t border-[#302E28] pt-8 flex justify-between items-center gap-4">
                     <p>Developed by @theproton</p>
-                    <p className="flex gap-2">
+                    <div
+                        className="flex gap-2 cursor-pointer group hover:opacity-80 transition-opacity"
+                        onClick={scrollToTop}
+                    >
                         Back to top
-                        <span><ArrowUpCircle /></span>
-                    </p>
+                        <span className="transition-transform duration-300 group-hover:-translate-y-1.5">
+                            <ArrowUpCircle />
+                        </span>
+                    </div>
                 </div>
             </div>
         </footer>
