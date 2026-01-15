@@ -35,5 +35,5 @@ export interface PortfolioData {
   work: WorkExperience[];
   clubs: WorkExperience[];
   volunteering: WorkExperience[];
-  stack: string[];
+  stack: Record<string, string[]>;
 }

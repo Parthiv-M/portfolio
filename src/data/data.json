@@ -1,29 +1,39 @@
 {
   "portfolio": {
     "name": "Parthiv Menon",
-    "stack": [
-      "python",
-      "typescript",
-      "js",
-      "html5",
-      "css3",
-      "php",
-      "bash",
-      "jest",
-      "cypress",
-      "react",
-      "nodejs",
-      "supabase",
-      "postgresql",
-      "mongodb",
-      "redis",
-      "docker",
-      "aws",
-      "vercel",
-      "git",
-      "figma",
-      "swagger"
-    ],
+    "stack": {
+      "Frontend": [
+        "html5",
+        "css3",
+        "js",
+        "typescript",
+        "react",
+        "figma"
+      ],
+      "Backend": [
+        "python",
+        "php",
+        "nodejs",
+        "bash"
+      ],
+      "Database": [
+        "supabase",
+        "postgresql",
+        "mongodb",
+        "redis"
+      ],
+      "Tools": [
+        "swagger",
+        "aws",
+        "vercel",
+        "docker",
+        "jest",
+        "cypress"
+      ],
+      "Version Control": [
+        "git"
+      ]
+    },
     "projects": [
       {
         "name": "katalog",
