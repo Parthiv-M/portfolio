@@ -194,8 +194,8 @@
         "name": "Wikimedia Hackathons",
         "role": "Participant / Volunteer",
         "description": [
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
-          "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
+          "I was selected to participate in the Wikimedia Hackathons held at Tallinn (2024) and Istanbul (2025). Here, I met and worked with fellow Wikimedia enthusiasts and worked on solving issues pertinent to the community. ",
+          "It was at these hackathons that I brainstormed project ideas, interacted with members of the wider (sometimes non-technical) community, and ended up working on the Year in Review tool, the REST API Sandbox and many other exciting projects. In 2025, I also wrote a blog post describing a vounteer developer's experience at Wikimedia Hackathons."
         ],
         "isAward": false,
         "image": "/hacks/wmhack.jpg"
@@ -204,8 +204,8 @@
         "name": "Hack-a-noodle by Zomato",
         "role": "Finalist",
         "description": [
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
-          "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
+          "Along with 3 other fellow students from my batch, I participated in the final round of Hack-a-noodle organized by Zomato and Blinkit in 2022. We built Liverr, a mobile application to facilitate peer-to-peer book sharing and community building.",
+          "Although we did not end up winning the competition, we got to stay at the Zomato office for the 24 hour duration of the hackathon and interact with other teams working on simliar projects. We received mentorship and feedback on our projects directly from engineers at Zomato."
         ],
         "isAward": false,
         "image": "/hacks/hackanoodle.jpg"
@@ -214,8 +214,7 @@
         "name": "1 Million Seconds Hackathon",
         "role": "Top 10 Finisher",
         "description": [
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
-          "Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu."
+          "We built Yozznet, the one-stop-shop app for all college needs. It was a full-stack application built using Flutter and a Node.js backend. It allowed users to find roommates, share books, review lost-and-found items, checkout food options around campus, and more."
         ],
         "isAward": true
       }
