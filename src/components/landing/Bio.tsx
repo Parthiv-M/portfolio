@@ -19,19 +19,32 @@ export default function Bio() {
                     </p>
                 </div>
             </div>
-            <div id="landing-links" className="mt-10 md:mt-0 flex flex-col gap-5 text-xl">
-                <a href="#" className="group flex gap-2 items-center">
-                    <span>Experience</span><span className="hidden group-hover:block"><ArrowLeft size={24} /></span>
-                </a>
-                <a href="#" className="group flex gap-2 items-center">
-                    <span>Projects</span><span className="hidden group-hover:block"><ArrowLeft size={24} /></span>
-                </a>
-                <a href="#" className="group flex gap-2 items-center">
-                    <span>Hackathons</span><span className="hidden group-hover:block"><ArrowLeft size={24} /></span>
-                </a>
-                <a href="#" className="group flex gap-2 items-center">
-                    <span>Other stuff</span><span className="hidden group-hover:block"><ArrowLeft size={24} /></span>
-                </a>
+            <div className="mt-20">
+                <div className="flex flex-col gap-2 font-mono text-sm sm:text-base">
+                    {/* Work */}
+                    <div className="flex gap-3 items-baseline w-fit">
+                        <span className="text-[#8D8A83] opacity-60">[f2a1c4b]</span>
+                        <span className="text-[#302E28]/80">work: Prev. SWE @ WMF</span>
+                    </div>
+
+                    {/* Internships */}
+                    <div className="flex gap-3 items-baseline w-fit">
+                        <span className="text-[#8D8A83] opacity-60">[7b92d6e]</span>
+                        <span className="text-[#302E28]/80">intern: MITACS @ Lakehead</span>
+                    </div>
+
+                    {/* Hackathons */}
+                    <div className="flex gap-3 items-baseline w-fit">
+                        <span className="text-[#8D8A83] opacity-60">[d0c5a3b]</span>
+                        <span className="text-[#302E28]/80">hack: Winner @ Hack NUACM</span>
+                    </div>
+
+                    {/* Projects */}
+                    <div className="flex gap-3 items-baseline w-fit">
+                        <span className="text-[#8D8A83] opacity-60">[3e811f9]</span>
+                        <span className="text-[#302E28]/80">project: Katalog Goodreads stats</span>
+                    </div>
+                </div>
             </div>
         </div>
     )

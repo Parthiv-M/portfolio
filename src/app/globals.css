@@ -32,15 +32,6 @@
     font-family: 'Antic Didone';
   }
 
-  #landing-links a {
-    color: #9A968D;
-    width: fit-content;
-  }
-
-  #landing-links a:hover {
-    color: var(--foreground);
-  }
-
   footer a {
     width: fit-content;
   }
@@ -141,4 +132,26 @@
   display: block;
   /* for aspect ratio ~1:10 */
   padding-top: 10%;
+}
+
+.cursor {
+  display: inline-block;
+  width: 6px;
+  height: 12px;
+  background-color: var(--foreground);
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+  vertical-align: middle;
+}
+
+@keyframes blink {
+
+  from,
+  to {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
 }
