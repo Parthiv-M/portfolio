@@ -64,7 +64,7 @@ export default function Stack() {
     };
 
     return (
-        <div className="group relative flex flex-col md:grid md:grid-cols-2 rounded-md overflow-hidden min-h-full w-full bg-gradient-to-b from-transparent to-[#d6d2c8]">
+        <div className="group relative flex flex-col md:grid md:grid-cols-2 rounded-md overflow-hidden h-full w-full bg-gradient-to-b from-transparent to-[#d6d2c8]">
             {/* Tech Stack Content */}
             <div className="p-8 sm:p-12 md:p-24 flex flex-col justify-center items-center md:items-start z-10 bg-transparent">
                 <p className="uppercase font-bold tracking-wider text-neutral-700 w-full text-center md:text-left">Tech Stack</p>
