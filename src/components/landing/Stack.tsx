@@ -88,7 +88,7 @@ export default function Stack() {
     }
 
     return (
-        <div className="group relative flex flex-col md:grid md:grid-cols-2 rounded-md overflow-hidden h-full w-full bg-gradient-to-b from-transparent to-[#d6d2c8]">
+        <div className="relative flex flex-col md:grid md:grid-cols-2 rounded-md overflow-hidden h-full w-full bg-gradient-to-b from-transparent to-[#d6d2c8]">
             {/* Tech Stack Content */}
             <div className="p-8 sm:p-12 md:p-24 flex flex-col justify-center items-center md:items-start z-10 bg-transparent">
                 <p className="uppercase font-bold tracking-wider text-neutral-700 w-full text-center md:text-left">Tech Stack</p>
@@ -109,7 +109,7 @@ export default function Stack() {
             </div>
 
             {/* Laptop Component */}
-            <div className="relative md:absolute md:right-0 md:translate-x-40 lg:translate-x-60 group-hover:translate-x-0 md:top-1/2 md:transform md:-translate-y-1/2 flex items-center justify-center w-full md:w-[60%] pb-12 md:pb-0 transition-all duration-700">
+            <div className="relative md:absolute md:right-0 md:translate-x-40 lg:translate-x-60 hover:translate-x-0 md:top-1/2 md:transform md:-translate-y-1/2 flex items-center justify-center w-full md:w-[60%] pb-12 md:pb-0 transition-all duration-700">
                 <div className="w-[85%] md:w-full">
                     <Laptop />
                 </div>
