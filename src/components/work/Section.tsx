@@ -36,11 +36,14 @@ export default function WorkSection() {
                             </div>
                         </div>}
                     </div>
-                    <em className="w-full md:w-1/2 mt-8 md:mt-0 text-gray-500">
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                        Sit amet consectetur adipiscing elit quisque faucibus ex.
-                        Adipiscing elit quisque faucibus ex sapien vitae pellentesque.
-                    </em>
+                    <div className="mt-24 md:mt-0">
+                        <em className="text-gray-500">
+                            And all that's left is a body moving through space and time. 7,000 RPM.
+                            That's where you meet it. You feel it coming. It creeps up on you, close
+                            in your ear. Asks you a question. The only question that matters. <span className="font-bold">Who are you?</span>
+                        </em>
+                        <p className="font-bold mt-2">- Ford v Ferrari</p>
+                    </div>
                 </div>
                 <div className="min-h-128 w-full bg-black/10 rounded-md"></div>
             </div>
