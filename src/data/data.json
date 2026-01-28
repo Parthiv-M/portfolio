@@ -201,6 +201,15 @@
         "image": "/hacks/wmhack.jpg"
       },
       {
+        "name": "Kubernetes Community Days, Bangalore, 2023",
+        "role": "Volunteer / Organizing Team",
+        "description": [
+          "I contributed to the organization of KCD Bangalore 2023, a successful conference with over 500 registrations and active participation from members of the Kubernetes community.",
+          "I coordinated pre-event logistics, including speaker management, merchandise ordering, and graphic design, while also helping out with specific tasks on both the event days."
+        ],
+        "isAward": false
+      },
+      {
         "name": "Hack-a-noodle by Zomato",
         "role": "Finalist",
         "description": [
@@ -286,6 +295,28 @@
         "endDate": "June 2020"
       }
     ],
-    "volunteering": []
+    "volunteering": [
+      {
+        "logo": "/institutions/revels.png",
+        "position": "Core Committee Member",
+        "organization": "Linux Users' Group, Manipal",
+        "startDate": "September 2021",
+        "endDate": "August 2022"
+      },
+      {
+        "logo": "/institutions/revels.png",
+        "position": "Developer, System Admin Team",
+        "organization": "Revels Cultural Fest, Manipal",
+        "startDate": "February 2022",
+        "endDate": "April 2022"
+      },
+      {
+        "logo": "/institutions/ecell.png",
+        "position": "Website Developer",
+        "organization": "Entrepreneurship Cell, Manipal",
+        "startDate": "October 2021",
+        "endDate": "July 2022"
+      }
+    ]
   }
 }
