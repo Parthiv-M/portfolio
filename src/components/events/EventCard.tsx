@@ -20,32 +20,26 @@ export default function EventCard(props: Event) {
             className="relative flex-shrink-0 min-h-108 md:min-h-148 w-72 md:w-120 bg-center bg-no-repeat bg-cover rounded-lg overflow-hidden cursor-pointer"
         >
             <motion.div
-                variants={{
-                    initial: { filter: "grayscale(100%)" },
-                    hover: { filter: "grayscale(0%)" }
-                }}
                 transition={{ duration: 0.5 }}
-                className="absolute inset-0 w-full h-full"
+                className="absolute inset-0 w-full h-full grayscale"
                 style={{ backgroundImage: `url(${props.image || '/hacks/fallback.jpg'})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
             />
             <div className="text-white absolute flex flex-col justify-between p-6 h-full w-full rounded-lg top-0 left-0 bg-gradient-to-t from-[#302E28] via-[#302E28]/80 to-transparent">
                 <div className="w-full flex justify-between">
-                    <div>
-                        <h3 className="antic font-bold text-2xl sm:text-3xl">{props?.name}</h3>
-                        <p className="uppercase font-bold">{props?.role}</p>
-                    </div>
+                    <p className="uppercase font-bold">{props?.role}</p>
                     {props?.isAward && <Award size={24} />}
                 </div>
 
                 <motion.div
                     variants={{
-                        initial: { maxHeight: "6rem" },
+                        initial: { maxHeight: "6.5rem" },
                         hover: { maxHeight: "40rem" }
                     }}
                     transition={{ duration: 0.7, ease: "easeInOut" }}
                     className="mt-auto overflow-hidden"
                 >
-                    <p className={`text-sm sm:text-base whitespace-pre-line transition-all duration-700 ${isExpanded ? '' : 'line-clamp-4'}`}>
+                    <p className="font-bold uppercase">// {props?.name} //</p>
+                    <p className={`mt-2 text-sm sm:text-base whitespace-pre-line transition-all duration-700 ${isExpanded ? '' : 'line-clamp-4'}`}>
                         {props.description.join("\n\n")}
                     </p>
                 </motion.div>
