@@ -14,8 +14,8 @@ export default function Home() {
         <LandingComponent />
         <WorkSection />
         <ProjectSection />
-        <EventsSection />
       </ContentWrapper>
+      <EventsSection />
       <Footer />
     </main>
   );
