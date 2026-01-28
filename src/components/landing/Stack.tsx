@@ -88,13 +88,13 @@ export default function Stack() {
     }
 
     return (
-        <div className="relative flex flex-col md:grid md:grid-cols-2 rounded-md overflow-hidden h-full w-full bg-gradient-to-b from-transparent to-[#d6d2c8]">
+        <div className="relative flex flex-col justify-center lg:grid lg:grid-cols-2 rounded-md overflow-hidden min-h-full w-full bg-gradient-to-b from-transparent to-[#d6d2c8]">
             {/* Tech Stack Content */}
-            <div className="p-8 sm:p-12 md:p-24 flex flex-col justify-center items-center md:items-start z-10 bg-transparent">
-                <p className="uppercase font-bold tracking-wider text-neutral-700 w-full text-center md:text-left">Tech Stack</p>
-                <div className="w-full flex flex-col items-center md:items-start overflow-hidden">
+            <div className="p-4 sm:p-12 md:p-16 lg:p-24 flex flex-col justify-center items-center lg:items-start z-10 bg-transparent">
+                <p className="uppercase font-bold tracking-wider text-neutral-700 w-full text-center lg:text-left">Tech Stack</p>
+                <div className="w-full flex flex-col items-center lg:items-start">
                     {rows.map((row, rowIdx) => (
-                        <div key={rowIdx} className="mt-6 sm:mt-8 flex gap-3 sm:gap-4 md:gap-6 text-neutral-400">
+                        <div key={rowIdx} className="mt-6 sm:mt-8 flex flex-wrap justify-center lg:justify-start gap-2 sm:gap-4 md:gap-6 text-neutral-400">
                             {row.map((iconName: string) => (
                                 <StackIcon
                                     key={iconName}
@@ -109,8 +109,8 @@ export default function Stack() {
             </div>
 
             {/* Laptop Component */}
-            <div className="relative md:absolute md:right-0 md:translate-x-40 lg:translate-x-60 hover:translate-x-0 md:top-1/2 md:transform md:-translate-y-1/2 flex items-center justify-center w-full md:w-[60%] pb-12 md:pb-0 transition-all duration-700">
-                <div className="w-[85%] md:w-full">
+            <div className="relative lg:absolute lg:right-0 lg:translate-x-40 xl:translate-x-60 hover:translate-x-0 lg:top-1/2 lg:transform lg:-translate-y-1/2 flex items-center justify-center w-full lg:w-[60%] pb-12 lg:pb-0 transition-all duration-700">
+                <div className="w-[85%] lg:w-full">
                     <Laptop />
                 </div>
             </div>

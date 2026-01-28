@@ -12,7 +12,7 @@ export const LandingComponent = () => {
                 </div>
                 <div className='flex-1 md:col-span-6 lg:col-span-4 border rounded-md'><Bio /></div>
             </div>
-            <div className='h-[50vh] md:h-screen border rounded-md mt-2'>
+            <div className='lg:h-screen border rounded-md mt-2'>
                 <Stack />
             </div>
         </div>
