@@ -24,28 +24,29 @@ export default function Footer() {
                         </div>
                         <div className="grid grid-cols-2 md:contents gap-8">
                             <div className="flex flex-col gap-4">
-                                <a className="text-xl" href="#">Writing</a>
-                                <a className="text-xl" href="#">Art</a>
+                                <a className="text-xl" href="#" aria-label="Writing (currently empty)">Writing</a>
+                                <a className="text-xl" href="#" aria-label="Art (currently empty)">Art</a>
                             </div>
                             <div className="flex flex-col gap-4">
-                                <a className="text-xl" href="mailto:parthivmenon.dev@gmail.com" target="_blank">Email</a>
-                                <a className="text-xl" href="https://instagram.com/_.parthiv_" target="_blank">Instagram</a>
-                                <a className="text-xl" href="https://linkedin.com/in/parthivmenon" target="_blank">LinkedIn</a>
+                                <a className="text-xl" href="mailto:parthivmenon.dev@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email (opens in new tab)">Email</a>
+                                <a className="text-xl" href="https://instagram.com/_.parthiv_" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in new tab)">Instagram</a>
+                                <a className="text-xl" href="https://linkedin.com/in/parthivmenon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in new tab)">LinkedIn</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="md:h-1/7 border-t border-[#302E28] pt-8 flex justify-between items-center gap-4">
                     <p>Developed by @theproton</p>
-                    <div
-                        className="flex gap-2 cursor-pointer group hover:opacity-80 transition-opacity"
+                    <button
+                        className="flex gap-2 cursor-pointer group hover:opacity-80 transition-opacity bg-transparent border-none p-0 font-inherit text-inherit"
                         onClick={scrollToTop}
+                        aria-label="Back to top"
                     >
                         Back to top
-                        <span className="transition-transform duration-300 group-hover:-translate-y-1.5">
+                        <span className="transition-transform duration-300 group-hover:-translate-y-1.5" aria-hidden="true">
                             <ArrowUpCircle />
                         </span>
-                    </div>
+                    </button>
                 </div>
             </div>
         </footer>

@@ -105,6 +105,7 @@ export default function Photo() {
                 ref={canvasRef}
                 className="absolute inset-0 w-full h-full pointer-events-none"
                 style={{ zIndex: 0 }}
+                aria-label="Interactive background dots that react to mouse movement"
             />
             <div className="relative z-10 pointer-events-none">
                 <img

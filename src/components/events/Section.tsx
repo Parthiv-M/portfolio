@@ -53,6 +53,7 @@ export default function EventsSection() {
                         whileTap={{ scale: 0.9 }}
                         onClick={() => scroll("left")}
                         className="p-3 bg-white/10 text-white rounded-full backdrop-blur-md pointer-events-auto border border-white/20 hover:bg-white/20 transition-colors shadow-2xl cursor-pointer"
+                        aria-label="Scroll left"
                     >
                         <ArrowLeft size={24} />
                     </motion.button>
@@ -65,6 +66,7 @@ export default function EventsSection() {
                         whileTap={{ scale: 0.9 }}
                         onClick={() => scroll("right")}
                         className="p-3 bg-white/10 text-white rounded-full backdrop-blur-md pointer-events-auto border border-white/20 hover:bg-white/20 transition-colors shadow-2xl cursor-pointer"
+                        aria-label="Scroll right"
                     >
                         <ArrowLeft size={24} className="rotate-180" />
                     </motion.button>

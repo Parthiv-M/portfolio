@@ -28,8 +28,9 @@ export default function ProjectCard(props: ProjectCardProps) {
             <div className={`absolute -bottom-8 rotate-3 right-10 w-3/5 aspect-[5/3] z-0 hidden md:block opacity-20 grayscale group-hover:opacity-80 group-hover:-translate-y-3 transition-all duration-500 ease-out pointer-events-none`}>
                 <img
                     src={props?.image || "/projects/image.png"}
-                    alt={props?.name}
+                    alt={`${props?.name} project preview`}
                     className="w-full h-full object-cover object-top rounded-lg shadow-2xl border border-white/20"
+                    aria-hidden="true"
                 />
             </div>
         </div>
