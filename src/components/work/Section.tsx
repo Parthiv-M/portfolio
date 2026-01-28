@@ -9,7 +9,7 @@ export default function WorkSection() {
     return (
         <Section>
             <div className="min-h-screen flex flex-col md:grid md:grid-cols-3 gap-2">
-                <div className="md:col-span-2 flex flex-col justify-between border rounded-md p-6 sm:p-8">
+                <div className="md:col-span-3 lg:col-span-2 flex flex-col justify-between border rounded-md p-6 sm:p-8">
                     <div>
                         {work.length !== 0 && <div>
                             <SectionHeaderText text="All about work" />
@@ -45,7 +45,7 @@ export default function WorkSection() {
                         <p className="font-bold mt-2">- Ford v Ferrari</p>
                     </div>
                 </div>
-                <div className="min-h-128 w-full bg-black/10 rounded-md"></div>
+                <div className="hidden lg:block min-h-128 w-full border rounded-md bg-[url('/kerala.png')] bg-cover bg-center"></div>
             </div>
         </Section>
     )
