@@ -28,7 +28,7 @@ export default function Footer() {
                                 <a className="text-xl" href="#" aria-label="Art (currently empty)">Art</a>
                             </div>
                             <div className="flex flex-col gap-4">
-                                <a className="text-xl" href="mailto:parthivmenon.dev@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email (opens in new tab)">Email</a>
+                                <a className="text-xl" href="mailto:hello@parthivmenon.com" target="_blank" rel="noopener noreferrer" aria-label="Email (opens in new tab)">Email</a>
                                 <a className="text-xl" href="https://instagram.com/_.parthiv_" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in new tab)">Instagram</a>
                                 <a className="text-xl" href="https://linkedin.com/in/parthivmenon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in new tab)">LinkedIn</a>
                             </div>
