@@ -230,6 +230,13 @@
     ],
     "work": [
       {
+        "logo": "/institutions/google.png",
+        "position": "Software Engineer",
+        "organization": "Google",
+        "startDate": "March 2026",
+        "endDate": "Present"
+      },
+      {
         "logo": "/institutions/neu.png",
         "position": "Teaching Assistant",
         "organization": "Northeastern University",
